@@ -3,7 +3,7 @@ node{
 		git branch: 'slacknotification', url: 'https://github.com/prabhatpankaj/devopsprojects.git'
 	}
 	stage('Compile-Package'){
-		def mvnHome = tool name: 'maven-3.5.4', type: 'maven'
+		def mvnHome = tool name: 'maven', type: 'maven'
 		sh "${mvnHome}/bin/mvn package"
 	}
 	stage('Deploy to Tomcat'){
