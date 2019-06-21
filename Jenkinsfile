@@ -12,7 +12,7 @@ node{
 		}
 	}
 	stage('Email Notification'){
-	mail bcc: '', body: 'This is body', cc: '', from: 'grgtsering@gmail.com', replyTo: 'grgtsering@gmail.com', subject: 'This is Subject', to: 'prabhat@aptence.com'
+	mail bcc: '', body: 'This is body', cc: '', from: 'grgtsering@gmail.com', replyTo: 'grgtsering@gmail.com', subject: 'This is Subject', to: 'namgyalt64@gmail.com'
 	}
 	
 	stage('Slack Notification'){
